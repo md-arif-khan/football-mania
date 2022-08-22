@@ -1,0 +1,50 @@
+body{
+    background-color:rgba(0, 0, 0, 0.842);
+}
+.header-section{
+ height:auto;
+ color:#FF5E19;
+}
+.img-style{
+    position: relative;
+    left:0;
+}
+.bg-img{
+    background-image: url('/images/path56.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.font-style{
+    font-size: 60px;
+    color: #FF5E19;   
+    font-family:'Berkshire Swash';       
+}
+.bg-img-style{
+    background-image: url('/images/Rectangle\ 57.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.heaight-style{
+    height:480px;
+}
+@media screen and (max-width: 776px) {
+    .font-style {
+        font-size:40px; 
+           
+    }
+    .heaight-style{
+        height:200px;
+    }
+  
+    .bg-img-style{
+        display: hidden;
+    }
+}
+.btn-color{
+    background-color: #FF5E19;
+    color:white;
+}
