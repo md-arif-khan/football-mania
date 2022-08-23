@@ -1,7 +1,6 @@
 
 function chosePlayer(elementId,btnId){
-
-    const playerNmae= document.getElementById(elementId)
+   const playerNmae= document.getElementById(elementId)
    const playerNameInnerText=playerNmae.innerText;
    const ol=document.getElementById('ol')
    const li=document.createElement('li')
@@ -65,11 +64,11 @@ document.getElementById('totalBtn').addEventListener('click',function(){
    const coach=inputField('coach')
    if(isNaN(manegar)){
       alert('Please Provide a valid Number')
-      return
+      return;
    }
    if(isNaN(coach)){
       alert('Please Provide a valid Number')
-      return
+      return;
    }
    const playerTotal=document.getElementById('totalPlayerAmount')
    const setTotal=document.getElementById('totalAmount')
